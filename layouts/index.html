@@ -1,0 +1,23 @@
+{{ define "head" }}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "image": "{{ .Site.Params.cover | absURL }}",
+    "url": "{{ .Site.BaseURL }}",
+    "logo": "{{ .Site.Params.logo | absURL }}",
+    "name": "{{ .Site.Title }}",
+    "description": "{{ .Site.Params.description }}",
+    "email": "{{ .Site.Params.email }}",
+    "sameAs": [
+      "{{ .Site.Params.social.facebook }}",
+      "{{ .Site.Params.social.twitter }}",
+      "{{ .Site.Params.social.linkedin }}"
+    ]
+  }
+</script>
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "home/hero" }}
+{{ end }}

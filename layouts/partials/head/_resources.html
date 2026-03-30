@@ -1,0 +1,17 @@
+<!-- Load Tailwind CSS -->
+{{ $styles := resources.Get "css/styles.scss"
+  | toCSS
+  | postCSS (dict "config" "./assets/css/postcss.config.js")
+}}
+
+{{- if hugo.IsServer }}
+  {{ $styles = $styles | resources.ExecuteAsTemplate (printf "css/styles.dev.%v.css" now.UnixMilli) . }}
+{{ else }}
+  {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+{{ end -}}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+
+<!-- Load Main JS -->
+{{ with resources.Get "js/main.js" }}
+  <script>{{ .Content | safeJS }}</script>
+{{ end }}

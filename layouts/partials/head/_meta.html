@@ -1,0 +1,53 @@
+<title>{{ .Title }}</title>
+
+<meta charset="UTF-8" />
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+<meta
+  name="description"
+  content="{{ .Site.Params.description }}" />
+<meta name="keywords" content="{{ .Params.meta.keywords }}" />
+
+<meta property="og:title" content="{{ .Title }}" />
+<meta
+  property="og:description"
+  content="{{ .Site.Params.description }}" />
+<meta
+  property="og:image"
+  content="{{ .Params.meta.cover | default .Site.Params.cover | absURL }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="website" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta
+  name="twitter:description"
+  content="{{ .Site.Params.description }}" />
+<meta
+  name="twitter:image"
+  content="{{ .Params.meta.cover | default .Site.Params.cover | absURL }}" />
+<meta name="twitter:site" content="@octabyte_io" />
+
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="icon" href="{{ .Site.Params.favicon }}" />
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "{{ .Permalink }}",
+    "name": "{{ .Title }}",
+    "description": "{{ .Site.Params.description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.Params.logo | absURL }}"
+      }
+    }
+  }
+</script>
