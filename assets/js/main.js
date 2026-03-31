@@ -2,24 +2,18 @@ let navigationOpen = false;
 
 window.onload = function () {
   const header = document.getElementById("header");
+  const rightSideItem1 = document.getElementById("right-side-item-1");
+  const rightSideItem2 = document.getElementById("right-side-item-2");
 
   window.addEventListener("scroll", () => {
     if (window.pageYOffset > 20) {
-      header.classList.add(
-        "bg-white",
-        "shadow",
-        "px-4",
-        "py-4",
-        "backdrop-blur",
-      );
+      header.classList.add("bg-white", "shadow", "!py-4", "backdrop-blur");
+      rightSideItem1.classList.add("!text-[#79808a]");
+      rightSideItem2.classList.add("!bg-[#4e6bff]");
     } else {
-      header.classList.remove(
-        "bg-white",
-        "shadow",
-        "px-4",
-        "py-4",
-        "backdrop-blur",
-      );
+      header.classList.remove("bg-white", "shadow", "!py-4", "backdrop-blur");
+      rightSideItem1.classList.remove("!text-[#79808a]");
+      rightSideItem2.classList.remove("!bg-[#4e6bff]");
     }
   });
 };
@@ -28,8 +22,6 @@ const toggleMenu = () => {
   navigationOpen = !navigationOpen;
 
   const menu = document.getElementById("header-menu");
-
-  console.log(menu);
 
   if (navigationOpen) {
     menu.classList.add(

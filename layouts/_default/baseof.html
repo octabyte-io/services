@@ -6,7 +6,9 @@
   </head>
   <body>
     {{ partial "common/header" . }}
-    {{- block "main" . -}}{{- end -}}
+    <main>
+      {{- block "main" . -}}{{- end -}}
+    </main>
     {{ partial "common/footer" . }}
   </body>
 </html>
