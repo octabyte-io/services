@@ -61,6 +61,7 @@ async function contactUs() {
       "https://docs.google.com/forms/d/e/1FAIpQLSfLJuSTK0GEncZ3mZOHjyQzFCHfefZ6ht6JEC89ZpwSZUJRXw/formResponse",
       {
         method: "POST",
+        mode: "no-cors",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
