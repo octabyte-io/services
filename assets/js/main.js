@@ -57,7 +57,7 @@ async function contactUs() {
   const email = document.getElementById("email-address");
 
   try {
-    const response = await fetch(
+    await fetch(
       "https://docs.google.com/forms/d/e/1FAIpQLSfLJuSTK0GEncZ3mZOHjyQzFCHfefZ6ht6JEC89ZpwSZUJRXw/formResponse",
       {
         method: "POST",
@@ -65,18 +65,14 @@ async function contactUs() {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: JSON.stringify({
+        body: new URLSearchParams({
           "entry.659065426": email.value,
         }),
       },
     );
 
-    if (response.ok) {
-      email.value = "";
-      alert("Thank you for sharing your email. We will get back to you soon.");
-    } else {
-      alert("There was an error submitting the form.");
-    }
+    email.value = "";
+    alert("Thank you for sharing your email. We will get back to you soon.");
   } catch (error) {
     console.log(error);
     alert("There was an error submitting the form.");
