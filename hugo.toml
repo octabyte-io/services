@@ -3,17 +3,9 @@ languageCode = 'en-us'
 title = 'OctaByte Services | Custom Web, Mobile & Software Development Company'
 
 [params]
-
-[params.description]
 description = """OctaByte services is a leading software development company offering web development, mobile app development, CRM, POS, and custom software solutions. We build scalable, high-performance digital products to help your business grow from idea to deployment."""
-
-[params.keywords]
 keywords = "software development company, web development services, mobile app development, custom software development, CRM development, POS development, desktop software development, IT solutions company, scalable software solutions, enterprise software development, full stack development services, OctaByte, software house, digital solutions provider, business software development"
-
-[params.logo]
 logo = "/image/octabyte-services.png"
-
-[params.favicon]
 favicon = "/images/favicon.ico"
 
 
