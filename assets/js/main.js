@@ -47,3 +47,8 @@ const toggleMenu = () => {
     );
   }
 };
+
+function toggleAccordion(id) {
+  const el = document.getElementById("accordion-" + id);
+  el.classList.toggle("hidden");
+}
