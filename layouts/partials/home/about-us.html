@@ -5,10 +5,10 @@
       <div>
         <div class="relative z-30 mb-14 h-[490px] max-w-[600px] lg:mb-0">
           <div class="absolute top-0 left-0">
-            <img src="images/about-1.jpg" alt="about-1" />
+            <img src="/images/about-1.jpg" alt="about-1" />
           </div>
           <div class="absolute top-1/2 right-0 z-10 -translate-y-1/2">
-            <img src="images/about-2.jpg" alt="about-2" />
+            <img src="/images/about-2.jpg" alt="about-2" />
             <div
               class="border-primary/10 bg-primary/5 absolute -top-5 -left-5 -z-10 h-full w-full border backdrop-blur-[6px] dark:border-white/10 dark:bg-white/10"></div>
           </div>
@@ -49,16 +49,13 @@
         <!-- Title -->
         <div class="mb-10">
           <p class="text-sm uppercase tracking-widest text-gray-500 mb-2">
-            A Germany-based software company
+            {{ i18n "about_us.subtitle" }}
           </p>
           <h1 class="text-3xl md:text-4xl font-semibold mb-4 text-[#181c31]">
-            Read more about our company
+            {{ i18n "about_us.tagline" }}
           </h1>
           <p class=" leading-relaxed">
-            We are a software company dedicated to building scalable and
-            high-performance digital solutions. Our team focuses on delivering
-            quality, reliability, and long-term value. Read more to learn about
-            our vision and approach.
+            {{ i18n "about_us.short_description" }}
           </p>
         </div>
 
@@ -69,14 +66,11 @@
             <button
               onclick="toggleAccordion(1)"
               class="w-full text-left px-4 py-3 font-semibold flex justify-between items-center text-[#181c31]">
-              Our Mission
+              {{ i18n "about_us.our_mission" }}
               <span>+</span>
             </button>
             <div id="accordion-1" class="hidden px-4 pb-4 text-gray-600">
-              Our mission is to deliver high-quality, scalable software
-              solutions that empower businesses to grow and succeed in the
-              digital world. We focus on combining innovation with reliability
-              to create real impact.
+              {{ i18n "about_us.our_mission_detail" }}
             </div>
           </div>
 
@@ -85,13 +79,11 @@
             <button
               onclick="toggleAccordion(2)"
               class="w-full text-left px-4 py-3 font-semibold flex justify-between items-center text-[#181c31]">
-              Our Vision
+              {{ i18n "about_us.our_vision" }}
               <span>+</span>
             </button>
             <div id="accordion-2" class="hidden px-4 pb-4 text-gray-600">
-              We aim to become a trusted technology partner for businesses
-              worldwide by continuously evolving, embracing new technologies,
-              and delivering exceptional digital experiences.
+              {{ i18n "about_us.our_vision_detail" }}
             </div>
           </div>
 
@@ -100,14 +92,11 @@
             <button
               onclick="toggleAccordion(3)"
               class="w-full text-left px-4 py-3 font-semibold flex justify-between items-center text-[#181c31]">
-              Our Approach
+              {{ i18n "about_us.our_approach" }}
               <span>+</span>
             </button>
             <div id="accordion-3" class="hidden px-4 pb-4 text-gray-600">
-              We follow a structured and collaborative approach — from
-              understanding your requirements to development, testing, and
-              deployment. Our goal is to ensure performance, scalability, and
-              long-term success for every project.
+              {{ i18n "about_us.our_approach_detail" }}
             </div>
           </div>
         </div>

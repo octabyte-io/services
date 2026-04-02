@@ -8,7 +8,7 @@
       <a href="/">
         <img
           class="h-14"
-          src="images/octabyte-services.png"
+          src="/images/octabyte-services.png"
           alt="OctaByte Services logo" />
       </a>
 
@@ -35,17 +35,21 @@
       <nav>
         <ul class="lg:gap-10 lg:items-center lg:flex-row gap-5 flex flex-col">
           <li>
-            <a href="#home" class="hover:text-[#4E6BFF]">Home</a>
-          </li>
-
-          <li>
-            <a href="#our-services" class="hover:text-[#4E6BFF]">
-              Our Services
+            <a href="#home" class="hover:text-[#4E6BFF]">
+              {{ i18n "header.home" }}
             </a>
           </li>
 
           <li>
-            <a href="#about-us" class="hover:text-[#4E6BFF]">About us</a>
+            <a href="#our-services" class="hover:text-[#4E6BFF]">
+              {{ i18n "header.our_services" }}
+            </a>
+          </li>
+
+          <li>
+            <a href="#about-us" class="hover:text-[#4E6BFF]">
+              {{ i18n "header.about_us" }}
+            </a>
           </li>
         </ul>
       </nav>
@@ -53,14 +57,24 @@
       <!-- Right Side -->
       <div class="lg:mt-0 gap-6 items-center flex mt-7">
         <a href="#" id="right-side-item-1" class="font-medium text-white">
-          Call us (0123) 456 – 789
+          Email us contact@octabyte.io
         </a>
+
+        <ul>
+          {{ range .Site.Languages }}
+            <li>
+              <a href="{{ .Lang | relLangURL }}">
+                {{ .LanguageName }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
 
         <a
           href="#contact-us"
           id="right-side-item-2"
           class="bg-[#ffffff26] text-white text-base leading-6 px-[1.87rem] py-3 rounded-full justify-center items-center flex">
-          Let’s Talk
+          {{ i18n "header.lets_talk" }}
         </a>
       </div>
     </div>

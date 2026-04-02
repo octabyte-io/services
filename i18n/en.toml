@@ -1,0 +1,24 @@
+[header]
+home = "Home"
+our_services = "Our Services"
+about_us = "About us"
+lets_talk = "Let’s Talk"
+
+[hero]
+tagline = "We specialize in Web Development, Mobile Apps and Custom Software."
+short_description = "From idea to deployment, we create fast, scalable software that helps businesses grow. We handle everything from planning and development to launch and optimization. Our solutions are built to perform reliably and adapt as your business evolves."
+for_question = "For any question or concern"
+
+[trusted_brands]
+tagline = "Trusted by world's leading brands"
+
+[about_us]
+subtitle = "A Germany-based software company"
+tagline = "Read more about our company"
+short_description = "We are a software company dedicated to building scalable and high-performance digital solutions. Our team focuses on delivering quality, reliability, and long-term value. Read more to learn about our vision and approach."
+our_mission = "Our Mission"
+our_mission_detail = "Our mission is to deliver high-quality, scalable software solutions that empower businesses to grow and succeed in the digital world. We focus on combining innovation with reliability to create real impact."
+our_vision = "Our Vision"
+our_vision_detail = "We aim to become a trusted technology partner for businesses worldwide by continuously evolving, embracing new technologies, and delivering exceptional digital experiences."
+our_approach = "Our Approach"
+our_approach_detail = "We follow a structured and collaborative approach, from understanding your requirements to development, testing, and deployment. Our goal is to ensure performance, scalability, and long-term success for every project."

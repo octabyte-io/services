@@ -1,6 +1,10 @@
 baseURL = 'https://services.octabyte.io/'
 languageCode = 'en-us'
+enableRobotsTXT = true
 title = 'OctaByte Services | Custom Web, Mobile & Software Development Company'
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [params]
 description = """OctaByte services is a leading software development company offering web development, mobile app development, CRM, POS, and custom software solutions. We build scalable, high-performance digital products to help your business grow from idea to deployment."""
@@ -8,39 +12,62 @@ keywords = "software development company, web development services, mobile app d
 logo = "/image/octabyte-services.png"
 favicon = "/images/favicon.ico"
 
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = 'OctaByte Services | Custom Web, Mobile & Software Development Company'
+    
+    [languages.en.params]
+      description = """OctaByte services is a leading software development company offering web development, mobile app development, CRM, POS, and custom software solutions. We build scalable, high-performance digital products to help your business grow from idea to deployment."""
+      keywords = "software development company, web development services, mobile app development, custom software development, CRM development, POS development, desktop software development, IT solutions company, scalable software solutions, enterprise software development, full stack development services, OctaByte, software house, digital solutions provider, business software development"
+
+
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 2
+    title = 'Deutsch title'
+
+  [languages.fr]
+    languageName = "Français"
+    weight = 3
+
+
+
 
 [[params.services]]
 name = "POS Development"
-icon = "images/pos-development.svg"
+icon = "/images/pos-development.svg"
 description = """Advance POS Development Company, giving you control of your enterprise
 for better workflow, customer tracking, inventory management and much more."""
 
 [[params.services]]
 name = "Website Development"
-icon = "images/website-development.svg"
+icon = "/images/website-development.svg"
 description = """Think Unique, get unique. High-end Custom Web Development Services by
 world-leading IT Solution provider company."""
 
 [[params.services]]
 name = "Mobile App Development"
-icon = "images/mobile-development.svg"
+icon = "/images/mobile-development.svg"
 description = """Now lead your business domain by choosing the world's leading
 platform, Innovative and feature-rich Mobile App Development delivering your dreams."""
 
 [[params.services]]
 name = "CRM Development"
-icon = "images/crm-development.svg"
+icon = "/images/crm-development.svg"
 description = """With our high-end CRM development Solutions, change the way your
 enterprise interacts with customers meanwhile improving sales productivity."""
 
 [[params.services]]
 name = "Desktop Software"
-icon = "images/desktop-development.svg"
+icon = "/images/desktop-development.svg"
 description = """Professional desktop software development for Windows, macOS, and Linux.
 We build fast, secure, and user-friendly applications tailored to your business needs."""
 
 [[params.services]]
 name = "Custom Software Development"
-icon = "images/custom-software-development.svg"
+icon = "/images/custom-software-development.svg"
 description = """Expert Custom Software Development Solutions for start-ups to
 established businesses - your helping hand in each stage of your business cycle."""
