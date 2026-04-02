@@ -22,3 +22,7 @@ our_vision = "Our Vision"
 our_vision_detail = "We aim to become a trusted technology partner for businesses worldwide by continuously evolving, embracing new technologies, and delivering exceptional digital experiences."
 our_approach = "Our Approach"
 our_approach_detail = "We follow a structured and collaborative approach, from understanding your requirements to development, testing, and deployment. Our goal is to ensure performance, scalability, and long-term success for every project."
+
+[our_services]
+tagline = "Our Services"
+short_description = "We provide end-to-end digital solutions including web, mobile, and custom software development to help businesses grow and scale efficiently."

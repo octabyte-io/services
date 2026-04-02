@@ -16,6 +16,7 @@ favicon = "/images/favicon.ico"
 
   [languages.en]
     languageName = "English"
+    languageCode = "en"
     weight = 1
     title = 'OctaByte Services | Custom Web, Mobile & Software Development Company'
     
@@ -26,48 +27,11 @@ favicon = "/images/favicon.ico"
 
   [languages.de]
     languageName = "Deutsch"
+    languageCode = "de"
     weight = 2
     title = 'Deutsch title'
 
   [languages.fr]
     languageName = "Français"
+    languageCode = "fr"
     weight = 3
-
-
-
-
-[[params.services]]
-name = "POS Development"
-icon = "/images/pos-development.svg"
-description = """Advance POS Development Company, giving you control of your enterprise
-for better workflow, customer tracking, inventory management and much more."""
-
-[[params.services]]
-name = "Website Development"
-icon = "/images/website-development.svg"
-description = """Think Unique, get unique. High-end Custom Web Development Services by
-world-leading IT Solution provider company."""
-
-[[params.services]]
-name = "Mobile App Development"
-icon = "/images/mobile-development.svg"
-description = """Now lead your business domain by choosing the world's leading
-platform, Innovative and feature-rich Mobile App Development delivering your dreams."""
-
-[[params.services]]
-name = "CRM Development"
-icon = "/images/crm-development.svg"
-description = """With our high-end CRM development Solutions, change the way your
-enterprise interacts with customers meanwhile improving sales productivity."""
-
-[[params.services]]
-name = "Desktop Software"
-icon = "/images/desktop-development.svg"
-description = """Professional desktop software development for Windows, macOS, and Linux.
-We build fast, secure, and user-friendly applications tailored to your business needs."""
-
-[[params.services]]
-name = "Custom Software Development"
-icon = "/images/custom-software-development.svg"
-description = """Expert Custom Software Development Solutions for start-ups to
-established businesses - your helping hand in each stage of your business cycle."""

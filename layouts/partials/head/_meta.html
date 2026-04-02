@@ -6,15 +6,11 @@
   name="viewport"
   content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 
-<meta
-  name="description"
-  content="{{ .Site.Params.description }}" />
+<meta name="description" content="{{ .Site.Params.description }}" />
 <meta name="keywords" content="{{ .Params.meta.keywords }}" />
 
 <meta property="og:title" content="{{ .Title }}" />
-<meta
-  property="og:description"
-  content="{{ .Site.Params.description }}" />
+<meta property="og:description" content="{{ .Site.Params.description }}" />
 <meta
   property="og:image"
   content="{{ .Params.meta.cover | default .Site.Params.cover | absURL }}" />
@@ -23,9 +19,7 @@
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ .Title }}" />
-<meta
-  name="twitter:description"
-  content="{{ .Site.Params.description }}" />
+<meta name="twitter:description" content="{{ .Site.Params.description }}" />
 <meta
   name="twitter:image"
   content="{{ .Params.meta.cover | default .Site.Params.cover | absURL }}" />
@@ -33,6 +27,13 @@
 
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="icon" href="{{ .Site.Params.favicon }}" />
+
+{{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+{{ end }}
+
+
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 
 <script type="application/ld+json">
   {
