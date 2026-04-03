@@ -11,6 +11,13 @@ description = """OctaByte services is a leading software development company off
 keywords = "software development company, web development services, mobile app development, custom software development, CRM development, POS development, desktop software development, IT solutions company, scalable software solutions, enterprise software development, full stack development services, OctaByte, software house, digital solutions provider, business software development"
 logo = "/image/octabyte-services.png"
 favicon = "/images/favicon.ico"
+cover = "/images/cover.jpeg"
+email = "contact@octabyte.io"
+
+[params.social]
+facebook = "https://www.facebook.com/octabyte.io/"
+twitter = "https://x.com/octabyte_io"
+linkedin = "https://www.linkedin.com/company/octabyte-io"
 
 [languages]
 

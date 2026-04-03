@@ -2,17 +2,23 @@ let navigationOpen = false;
 
 window.onload = function () {
   const header = document.getElementById("header");
-  const rightSideItem1 = document.getElementById("right-side-item-1");
+  const rightSideItemLang = document.getElementsByClassName(
+    "right-side-item-lang",
+  );
   const rightSideItem2 = document.getElementById("right-side-item-2");
 
   window.addEventListener("scroll", () => {
     if (window.pageYOffset > 20) {
       header.classList.add("bg-white", "shadow", "!py-4", "backdrop-blur");
-      rightSideItem1.classList.add("!text-[#79808a]");
+      Array.from(rightSideItemLang).forEach((item) =>
+        item.classList.add("!text-[#79808a]"),
+      );
       rightSideItem2.classList.add("!bg-[#4e6bff]");
     } else {
       header.classList.remove("bg-white", "shadow", "!py-4", "backdrop-blur");
-      rightSideItem1.classList.remove("!text-[#79808a]");
+      Array.from(rightSideItemLang).forEach((item) =>
+        item.classList.remove("!text-[#79808a]"),
+      );
       rightSideItem2.classList.remove("!bg-[#4e6bff]");
     }
   });

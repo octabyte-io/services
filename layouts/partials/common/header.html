@@ -56,14 +56,12 @@
 
       <!-- Right Side -->
       <div class="lg:mt-0 gap-6 items-center flex mt-7">
-        <a href="#" id="right-side-item-1" class="font-medium text-white">
-          Email us contact@octabyte.io
-        </a>
-
-        <ul>
+        <ul class="flex gap-5">
           {{ range .Site.Languages }}
             <li>
-              <a href="{{ .Lang | relLangURL }}">
+              <a
+                class="right-side-item-lang font-medium text-white"
+                href="{{ .Lang | absURL }}">
                 {{ .LanguageName }}
               </a>
             </li>
