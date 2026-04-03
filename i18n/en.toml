@@ -26,3 +26,15 @@ our_approach_detail = "We follow a structured and collaborative approach, from u
 [our_services]
 tagline = "Our Services"
 short_description = "We provide end-to-end digital solutions including web, mobile, and custom software development to help businesses grow and scale efficiently."
+
+[newsletter]
+tagline = "Have a project in mind? Let’s discuss."
+short_description = "Share your project idea with us, and we’ll help you turn it into a powerful, scalable solution. From concept to deployment, we’re here to support you every step of the way."
+
+[footer]
+contact = "Contact"
+pos_development = "POS Development"
+website = "Website"
+mobile_application = "Mobile Application"
+crm_solution = "CRM Solution"
+rights_reserved_by = "All Rights Reserved by"
