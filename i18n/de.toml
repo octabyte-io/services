@@ -1,0 +1,40 @@
+[header]
+home = "Startseite"
+our_services = "Leistungen"
+about_us = "Über uns"
+lets_talk = "Jetzt anfragen"
+
+[hero]
+tagline = "Webentwicklung, Mobile Apps und maßgeschneiderte Softwarelösungen für Ihr Unternehmen."
+short_description = "Von der Idee bis zur erfolgreichen Umsetzung entwickeln wir leistungsstarke, skalierbare Softwarelösungen. Wir begleiten Sie von der Konzeption über die Entwicklung bis hin zur Optimierung – effizient, zuverlässig und zukunftssicher."
+for_question = "Fragen oder Anliegen?"
+
+[trusted_brands]
+tagline = "Vertrauen führender Unternehmen weltweit"
+
+[about_us]
+subtitle = "Softwareunternehmen mit Sitz in Deutschland"
+tagline = "Lernen Sie unser Unternehmen kennen"
+short_description = "Wir entwickeln innovative und skalierbare Softwarelösungen für Unternehmen jeder Größe. Unser Fokus liegt auf Qualität, Performance und nachhaltigem Wachstum. Erfahren Sie mehr über unsere Werte, unsere Vision und unsere Arbeitsweise."
+our_mission = "Unsere Mission"
+our_mission_detail = "Wir entwickeln hochwertige Softwarelösungen, die Unternehmen digital voranbringen. Durch die Kombination aus Innovation, Effizienz und Zuverlässigkeit schaffen wir nachhaltigen Mehrwert."
+our_vision = "Unsere Vision"
+our_vision_detail = "Wir möchten ein führender Technologiepartner für Unternehmen weltweit werden – durch kontinuierliche Innovation, moderne Technologien und herausragende digitale Lösungen."
+our_approach = "Unser Ansatz"
+our_approach_detail = "Unser strukturierter Entwicklungsprozess reicht von der Analyse Ihrer Anforderungen bis hin zur Umsetzung und Optimierung. Dabei stehen Qualität, Skalierbarkeit und langfristiger Erfolg im Mittelpunkt."
+
+[our_services]
+tagline = "Unsere Leistungen"
+short_description = "Wir bieten ganzheitliche digitale Lösungen – von Webentwicklung und App-Entwicklung bis hin zu individuellen Softwarelösungen, die Ihr Unternehmen nachhaltig wachsen lassen."
+
+[newsletter]
+tagline = "Sie haben eine Projektidee? Lassen Sie uns sprechen."
+short_description = "Erzählen Sie uns von Ihrem Projekt – wir unterstützen Sie dabei, daraus eine leistungsstarke und skalierbare Lösung zu entwickeln. Von der Idee bis zur Umsetzung stehen wir Ihnen als Partner zur Seite."
+
+[footer]
+contact = "Kontakt"
+pos_development = "POS-Software"
+website = "Webentwicklung"
+mobile_application = "App-Entwicklung"
+crm_solution = "CRM-Lösungen"
+rights_reserved_by = "Alle Rechte vorbehalten"

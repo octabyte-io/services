@@ -36,9 +36,18 @@ linkedin = "https://www.linkedin.com/company/octabyte-io"
     languageName = "Deutsch"
     languageCode = "de"
     weight = 2
-    title = 'Deutsch title'
+    title = "OctaByte Services | Webentwicklung, App-Entwicklung & Individuelle Softwarelösungen"
+    
+    [languages.de.params]
+      description = """OctaByte Services ist ein führendes Softwareunternehmen für Webentwicklung, App-Entwicklung, CRM-, POS- und individuelle Softwarelösungen. Wir entwickeln skalierbare und leistungsstarke digitale Produkte, die Ihr Unternehmen von der Idee bis zur erfolgreichen Umsetzung wachsen lassen."""
+      keywords = "Softwareunternehmen, Webentwicklung, App-Entwicklung, individuelle Softwareentwicklung, CRM-Entwicklung, POS-Software, Desktop-Software, IT-Dienstleister, skalierbare Softwarelösungen, Unternehmenssoftware, Full-Stack Entwicklung, Softwareagentur, digitale Lösungen, Business Software Entwicklung"
 
   [languages.fr]
     languageName = "Français"
     languageCode = "fr"
     weight = 3
+    title = "Services OctaByte | Développement Web, Mobile & Logiciels Sur Mesure"
+
+    [languages.fr.params]
+      description = """OctaByte est une entreprise spécialisée dans le développement de logiciels sur mesure, offrant des services de création de sites web, d'applications mobiles, de CRM, de POS et de solutions personnalisées. Nous concevons des produits digitaux performants et évolutifs pour accompagner la croissance de votre entreprise, de l’idée jusqu’au déploiement."""
+      keywords = "entreprise de développement logiciel, développement web, développement d'applications mobiles, logiciel sur mesure, développement CRM, développement POS, solutions logicielles, développement entreprise, solutions digitales, agence développement logiciel, OctaByte, société IT, développement full stack"

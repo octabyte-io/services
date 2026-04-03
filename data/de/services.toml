@@ -1,0 +1,29 @@
+[[services]]
+name = "POS-Softwareentwicklung"
+icon = "/images/pos-development.svg"
+description = """Moderne POS-Softwarelösungen für Ihr Unternehmen. Optimieren Sie Ihre Geschäftsprozesse, verbessern Sie das Kundenmanagement und behalten Sie Lagerbestände und Verkäufe jederzeit im Blick."""
+
+[[services]]
+name = "Webentwicklung"
+icon = "/images/website-development.svg"
+description = """Individuelle Webentwicklung auf höchstem Niveau. Wir erstellen moderne, performante und skalierbare Websites, die perfekt auf Ihre Geschäftsziele abgestimmt sind."""
+
+[[services]]
+name = "App-Entwicklung"
+icon = "/images/mobile-development.svg"
+description = """Innovative und leistungsstarke mobile Apps für iOS und Android. Wir entwickeln benutzerfreundliche Anwendungen, die Ihr Unternehmen digital voranbringen."""
+
+[[services]]
+name = "CRM-Entwicklung"
+icon = "/images/crm-development.svg"
+description = """Maßgeschneiderte CRM-Lösungen zur Optimierung Ihrer Kundenbeziehungen. Steigern Sie Ihre Vertriebseffizienz und verbessern Sie die Kommunikation mit Ihren Kunden nachhaltig."""
+
+[[services]]
+name = "Desktop-Software"
+icon = "/images/desktop-development.svg"
+description = """Professionelle Entwicklung von Desktop-Anwendungen für Windows, macOS und Linux. Sicher, schnell und exakt auf Ihre Geschäftsanforderungen zugeschnitten."""
+
+[[services]]
+name = "Individuelle Softwareentwicklung"
+icon = "/images/custom-software-development.svg"
+description = """Individuelle Softwarelösungen für Start-ups und Unternehmen. Wir begleiten Sie von der Idee bis zur Umsetzung und unterstützen Sie in jeder Phase Ihres digitalen Wachstums."""

@@ -1,0 +1,30 @@
+
+[[services]]
+name = "Développement POS"
+icon = "/images/pos-development.svg"
+description = """Optimisez la gestion de votre entreprise avec nos solutions POS avancées. Améliorez vos flux de travail, le suivi des clients et la gestion des stocks pour plus d'efficacité."""
+
+[[services]]
+name = "Développement de sites web"
+icon = "/images/website-development.svg"
+description = """Créez un site web unique et performant qui reflète votre marque. Nous développons des solutions web modernes, rapides et optimisées pour le SEO et la conversion."""
+
+[[services]]
+name = "Développement d’applications mobiles"
+icon = "/images/mobile-development.svg"
+description = """Boostez votre activité avec des applications mobiles innovantes, performantes et adaptées aux besoins de vos utilisateurs sur iOS et Android."""
+
+[[services]]
+name = "Développement CRM"
+icon = "/images/crm-development.svg"
+description = """Améliorez vos relations clients et augmentez votre productivité grâce à nos solutions CRM sur mesure, conçues pour optimiser vos processus commerciaux."""
+
+[[services]]
+name = "Logiciels de bureau"
+icon = "/images/desktop-development.svg"
+description = """Développement d’applications de bureau professionnelles pour Windows, macOS et Linux. Des solutions rapides, sécurisées et adaptées à vos besoins métiers."""
+
+[[services]]
+name = "Développement logiciel sur mesure"
+icon = "/images/custom-software-development.svg"
+description = """Des solutions logicielles personnalisées pour startups et entreprises établies. Nous vous accompagnons à chaque étape pour créer un produit adapté à votre croissance."""

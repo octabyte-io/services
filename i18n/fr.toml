@@ -1,0 +1,40 @@
+[header]
+home = "Accueil"
+our_services = "Nos services"
+about_us = "À propos"
+lets_talk = "Discutons"
+
+[hero]
+tagline = "Spécialistes en développement web, mobile et logiciel sur mesure"
+short_description = "De l’idée à la mise en production, nous créons des solutions rapides, évolutives et performantes pour accompagner la croissance de votre entreprise. Nous gérons tout : de la conception au développement, jusqu’au lancement et à l’optimisation continue."
+for_question = "Pour toute question ou demande"
+
+[trusted_brands]
+tagline = "Approuvé par des marques de référence à travers le monde"
+
+[about_us]
+subtitle = "Une entreprise technologique basée en Allemagne"
+tagline = "En savoir plus sur notre entreprise"
+short_description = "Nous sommes une entreprise spécialisée dans la création de solutions digitales performantes et évolutives. Notre équipe s’engage à fournir qualité, fiabilité et valeur à long terme. Découvrez notre vision et notre approche."
+our_mission = "Notre mission"
+our_mission_detail = "Notre mission est de fournir des solutions logicielles de haute qualité et évolutives qui permettent aux entreprises de se développer dans un monde numérique. Nous combinons innovation et fiabilité pour créer un impact concret."
+our_vision = "Notre vision"
+our_vision_detail = "Nous aspirons à devenir un partenaire technologique de confiance pour les entreprises du monde entier en adoptant continuellement les nouvelles technologies et en offrant des expériences digitales exceptionnelles."
+our_approach = "Notre approche"
+our_approach_detail = "Nous suivons une méthodologie structurée et collaborative, allant de l’analyse de vos besoins jusqu’au déploiement. Notre objectif est d’assurer performance, scalabilité et réussite à long terme pour chaque projet."
+
+[our_services]
+tagline = "Nos services"
+short_description = "Nous proposons des solutions digitales complètes, incluant le développement web, mobile et logiciel sur mesure pour aider les entreprises à croître efficacement."
+
+[newsletter]
+tagline = "Vous avez un projet ? Parlons-en."
+short_description = "Partagez votre idée avec nous, et nous vous aiderons à la transformer en une solution performante et évolutive. De la conception au déploiement, nous vous accompagnons à chaque étape."
+
+[footer]
+contact = "Contact"
+pos_development = "Développement POS"
+website = "Site web"
+mobile_application = "Application mobile"
+crm_solution = "Solution CRM"
+rights_reserved_by = "Tous droits réservés par"
