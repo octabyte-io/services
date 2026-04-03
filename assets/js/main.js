@@ -84,3 +84,47 @@ async function contactUs() {
     alert("There was an error submitting the form.");
   }
 }
+
+async function getInTouch() {
+  const sendButton = document.getElementById("get-in-touch-send-button");
+  const name = document.getElementById("fullname");
+  const email = document.getElementById("email");
+  const phone = document.getElementById("phone");
+  const subject = document.getElementById("subject");
+  const message = document.getElementById("message");
+
+  let buttonText = sendButton.textContent;
+  sendButton.textContent = "Sending...";
+
+  try {
+    await fetch(
+      "https://docs.google.com/forms/d/e/1FAIpQLSfLJuSTK0GEncZ3mZOHjyQzFCHfefZ6ht6JEC89ZpwSZUJRXw/formResponse",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({
+          "entry.1813397379": name.value,
+          "entry.659065426": email.value,
+          "entry.1320067814": phone.value,
+          "entry.1981085734": subject.value,
+          "entry.591575718": message.value,
+        }),
+      },
+    );
+
+    name.value = "";
+    email.value = "";
+    phone.value = "";
+    subject.value = "";
+    message.value = "";
+    sendButton.textContent = buttonText;
+    alert("Thank you for contact. We will get back to you soon.");
+  } catch (error) {
+    console.log(error);
+    sendButton.textContent = buttonText;
+    alert("There was an error submitting the form.");
+  }
+}
